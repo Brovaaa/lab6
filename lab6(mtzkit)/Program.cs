@@ -6,7 +6,8 @@ namespace lab6_mtzkit_
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int x = 5, y = 10;
+            Console.WriteLine($"5+10={x+y}");
             Console.ReadKey();
         }
     }
